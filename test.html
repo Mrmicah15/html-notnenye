@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/color.css">
+</head>
+<style>
+  ul{
+  list-style-type: none;
+  padding: O;
+  }
+
+  li{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  }
+
+  input[type="checkbox"] {
+     margin-right: 10px;
+  }
+ 
+  img{
+  max-width: 200px;
+  margin-right: 10px;
+  }
+
+  body{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease in
+  }
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+  .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+
+  </style>
+
+
+  
+
+<body>
+      <h1>My Checklist</h1>
+  
+  
+  <ul>
+    <li>
+      <input type="checkbox">
+      <img src=".//places/picnic.avif">
+    </li>
+
+    <li>
+      <input type="checkbox">
+      <img src="./food/cake.avif">
+    </li>
+
+    <li>
+       <input type="checkbox">
+       <img src="./places/cinema.avif">
+    </li>
+  </ul>
+</body>
+</html>
